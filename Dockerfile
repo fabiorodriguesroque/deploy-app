@@ -26,7 +26,7 @@ RUN apt-get update && apt-get install -y \
     libmemcached-dev \
     nginx \ 
     nano \ 
-    node \
+    nodejs \
     npm
 
 # Install supervisor
