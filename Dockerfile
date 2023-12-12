@@ -25,7 +25,9 @@ RUN apt-get update && apt-get install -y \
     lua-zlib-dev \
     libmemcached-dev \
     nginx \ 
-    nano
+    nano \ 
+    node \
+    npm
 
 # Install supervisor
 RUN apt-get install -y supervisor
